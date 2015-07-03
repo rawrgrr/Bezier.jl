@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/rawrgrr/Bezier.jl.svg?branch=master)](https://travis-ci.org/rawrgrr/Bezier.jl)
 
-Bézier curves for [arbitrary order interpolation](https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Higher-order_curves).
+Interpolation for arbitrary order [Bézier curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Higher-order_curves) in julia
 
 Linear interpolation between two points with `bezier(t, P1, P2)`
   - `P1` coordinate for one point
