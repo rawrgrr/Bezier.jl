@@ -7,7 +7,9 @@ function bezier{T<:FloatingPoint}(t::Real, P1::Array{T}, P2::Array{T})
     if 0 ≤ t ≤ 1
         return P1 + t * (P2 - P1)
     else
-        throw(DomainError("t must be bounded by [0, 1]"))
+        # t must be bounded by [0, 1]
+        # TODO is this the right way to notify users?
+        throw(DomainError())
     end
 end
 
