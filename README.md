@@ -1,6 +1,7 @@
 # Bezier
 
 [![Build Status](https://travis-ci.org/rawrgrr/Bezier.jl.svg?branch=master)](https://travis-ci.org/rawrgrr/Bezier.jl)
+[![Coverage Status](https://coveralls.io/repos/rawrgrr/Bezier.jl/badge.svg?branch=master)](https://coveralls.io/r/rawrgrr/Bezier.jl)
 
 Interpolation for arbitrary order [Bézier curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve#Higher-order_curves) in julia
 
