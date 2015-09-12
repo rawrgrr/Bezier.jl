@@ -22,8 +22,8 @@ P22 = [2. 3]
 @test Array[[10, 5]] == bezier(0.5, Vector{FloatingPoint}[[0., 0], [10, 10], [20, 0]])
 
 # quadratic interpolation with matrix
-@test [[10 5]] == bezier(0.5, [[0. 0], [10 10], [20 0]])
-@test [[10 5]] == bezier(0.5, [0. 0; 10 10; 20 0])
+@test [[10 5];] == bezier(0.5, [[0. 0]; [10 10]; [20 0]])
+@test [[10 5];] == bezier(0.5, [0. 0; 10 10; 20 0])
 
 # boundary checks
 @test_throws DomainError bezier(prevfloat(0.), [0., 1], [2., 3])
